@@ -1,0 +1,4 @@
+# Multiple/ array of dam asset cq:tags 
+
+/jcr:root/content/dam/we-retail//element(*, dam:Asset)[(jcr:content/metadata/@cq:tags='we-retail:apparel/pants' and jcr:content/metadata/@cq:tags='we-retail:apparel/shirt'
+ and jcr:content/metadata/@cq:tags='we-retail:apparel/coat' and jcr:content/metadata/@cq:tags='we-retail:apparel/cloth')]
