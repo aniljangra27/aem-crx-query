@@ -1,0 +1,3 @@
+# Get pages with multiple cq:Tags
+
+/jcr:root/content/we-retail//element(*, cq:Page)[(jcr:content/@cq:tags = 'we-retail:apparel/pants' or jcr:content/@cq:tags = 'we-retail:apparel/shirt')]
